@@ -21,7 +21,7 @@ namespace WindowsFormsAppTest
         public Form2(Form1 Form1)
         {
             clicks = Form1.count;
-            time = Form1.sttime;
+            time = Form1.startingTime;
             cps = clicks / (time - 0.0f);
             InitializeComponent();
             label1.Text = "Total clicks: " + clicks + "\nAverage CPS:" + cps + "\nTime: " + time;
@@ -51,15 +51,13 @@ namespace WindowsFormsAppTest
                 }
             }
             //open saved results
-            newForm.Show();
+            newForm.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             //save results
-            var appDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            var relativePath = @"..\..\..\Data\Data.csv";
-            var path = Path.Combine(appDir, relativePath);
+            var path = @"..\..\Data\Data.csv";
             var date = DateTime.Now;
             var line = '\n' + date.ToString() + ";" + clicks + ";" + time + ";" + cps;
             File.AppendAllText(path, line);

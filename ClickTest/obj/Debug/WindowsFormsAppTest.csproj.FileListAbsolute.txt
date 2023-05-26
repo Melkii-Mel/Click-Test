@@ -24,3 +24,17 @@ D:\Project#.cringe\ClickTest\obj\Debug\WindowsFormsAppTest.csproj.GenerateResour
 D:\Project#.cringe\ClickTest\obj\Debug\WindowsFormsAppTest.csproj.CoreCompileInputs.cache
 D:\Project#.cringe\ClickTest\obj\Debug\WindowsFormsAppTest.exe
 D:\Project#.cringe\ClickTest\obj\Debug\WindowsFormsAppTest.pdb
+D:\Project#.cringe\.archive\Click-Test\ClickTest\bin\Debug\WindowsFormsAppTest.exe.config
+D:\Project#.cringe\.archive\Click-Test\ClickTest\bin\Debug\WindowsFormsAppTest.exe
+D:\Project#.cringe\.archive\Click-Test\ClickTest\bin\Debug\WindowsFormsAppTest.pdb
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.csproj.AssemblyReference.cache
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.csproj.SuggestedBindingRedirects.cache
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.Form1.resources
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.Form2.resources
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.Form3.resources
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.Properties.Resources.resources
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.csproj.GenerateResource.cache
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.csproj.CoreCompileInputs.cache
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.exe
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.pdb
+D:\Project#.cringe\.archive\Click-Test\ClickTest\obj\Debug\WindowsFormsAppTest.Form4.resources

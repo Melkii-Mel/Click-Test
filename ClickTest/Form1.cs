@@ -14,9 +14,9 @@ namespace WindowsFormsAppTest
     {
         public int count = 0;
         public int time = 1;
-        public int actualtime;
-        public bool isactive = false;
-        public int sttime;
+        public int actualTime;
+        public bool isActive = false;
+        public int startingTime;
         public int counter = 0;
         
         public Form1()
@@ -37,17 +37,17 @@ namespace WindowsFormsAppTest
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            actualtime --;
+            actualTime --;
             try
             {
-                textBox2.Text = "KPS: " + Math.Round((count / (sttime - time + 0.0f)), 3).ToString();
+                textBox2.Text = "KPS: " + Math.Round((count / (startingTime - time + 0.0f)), 3).ToString();
             }
             catch (DivideByZeroException)
             {
                 textBox2.Text = "N/A";
             }
             
-            if ((actualtime + 0.0f) / 10 < time)
+            if ((actualTime + 0.0f) / 10 < time)
             {
                 time --;
             }
@@ -59,7 +59,7 @@ namespace WindowsFormsAppTest
                 label1.Text = "Time ran out!";
                 button1.Enabled = false;
                 Form2 newForm = new Form2(this);
-                newForm.Show();
+                newForm.ShowDialog();
                 button4.Enabled = true;
             }
         }
@@ -81,14 +81,14 @@ namespace WindowsFormsAppTest
             textBox1.Clear();
             count++;
             textBox1.AppendText("Klick Count: " + count.ToString());
-            if (isactive == false)
+            if (isActive == false)
             {
                 timer1.Enabled = true;
                 button2.Enabled = false;
                 button3.Enabled = false;
-                actualtime = time * 10;
-                isactive = true;
-                sttime = time;
+                actualTime = time * 10;
+                isActive = true;
+                startingTime = time;
             }
         }
 
@@ -97,9 +97,9 @@ namespace WindowsFormsAppTest
             button1.Enabled = true;
             button2.Enabled = true;
             button3.Enabled = true;
-            time = sttime;
-            actualtime = 0;
-            isactive = false;
+            time = startingTime;
+            actualTime = 0;
+            isActive = false;
             count = 0;
             label1.Text = time.ToString() + " Secs";
             button4.Enabled = false;
